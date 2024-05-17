@@ -1,4 +1,4 @@
 
 
 def two():
-    print("two")
+    print("two method in two.py")
