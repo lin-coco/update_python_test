@@ -1,4 +1,5 @@
+import emoji
 
 
 def one():
-    print("one method in one.py")
+    print(emoji.emojize('one Python is :thumbs_up:'))
