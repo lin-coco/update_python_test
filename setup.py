@@ -16,13 +16,13 @@ class NoSuffixBuilder(build_ext):
         return filename.replace(suffix, "") + ext
 
 file_list = [
-    "app/config/config.py",
-    "app/one/__init__.py",
-    "app/one/one.py",
-    "app/second/__init__.py",
-    "app/second/second.py",
-    "app/__init__.py",
-    "app/run.py",
+    "app/go/__init__.py",
+    "app/go/go.py",
+    "app/python/__init__.py",
+    "app/python/python.py",
+    "app/rust/__init__.py",
+    "app/rust/rust.py",
+    "app/__init__.py"
 ]
 
 

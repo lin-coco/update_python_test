@@ -1,8 +1,7 @@
-import app.one.one
-import app.second.second
-import click.types
+from app.go import go
+from app.python import python
+from app.rust import rust
 
-app.one.one.one()
-app.second.second.two()
-
-print(click.types.ParamType)
+go.log()
+python.log()
+rust.log()
