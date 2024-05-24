@@ -1,7 +1,7 @@
 from app.go import go
-from app.python import python
-from app.rust import rust
+from app.python3 import python3
+from app.cpp import cpp
 
 go.log()
-python.log()
-rust.log()
+cpp.log()
+python3.log()

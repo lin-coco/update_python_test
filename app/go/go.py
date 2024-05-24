@@ -1,5 +1,5 @@
-import click
+import emoji
 
 
 def log():
-    print(f'go is {click.core.types}')
+    print(emoji.emojize('go is :thumbs_up:'))
